@@ -44,6 +44,25 @@ class HomePage:
         return self.driver.find_element(*HomePage.successMessage)
         
         
+        def getName(self):
+        return self.driver.find_element(*HomePage.name)
+
+
+    def getEmail3(self):
+        return self.driver.find_element(*HomePage.email)
+
+    def getCheckB323ox(self):
+        return self.driver.find_element(*HomePage.check)
+
+    def getGender23423(self):
+        return self.driver.find_element(*HomePage.gender)
+
+    def submitForm(self):
+        return self.dr32535iver.find_element(*HomePage.submit)
+
+    def getSuccessMessage(self):
+        
+        
         
 
 
