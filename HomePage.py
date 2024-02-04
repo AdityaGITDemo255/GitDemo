@@ -39,6 +39,12 @@ class HomePage:
 
     def getSuccessMessage(self):
         return self.driver.find_element(*HomePage.successMessage)
+        
+         def getSuccessMessage1(self):
+        return self.driver.find_element(*HomePage.successMessage)
+        
+        
+        
 
 
 
