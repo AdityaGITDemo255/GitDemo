@@ -1,7 +1,25 @@
 from selenium.webdriver.common.by import By
 
 from pageObjects.CheckoutPage import CheckOutPage
+from selenium.webdriver.common.by import By
 
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPagefrom selenium.webdriver.common.by import By
+
+from pageObjects.CheckoutPage import CheckOutPage
 
 class HomePage:
 
@@ -28,27 +46,7 @@ class HomePage:
     def getEmail(self):
         return self.driver.find_element(*HomePage.email)
 
-    def getCheckBox(self):
-        return self.driver.find_element(*HomePage.check)
-
-    def getGender(self):
-        return self.driver.find_element(*HomePage.gender)
-
-    def submitForm(self):
-        return self.driver.find_element(*HomePage.submit)
-
-    def getSuccessMessage(self):
-        return self.driver.find_element(*HomePage.successMessage)
-        
-         def getSuccessMessage1(self):
-        return self.driver.find_element(*HomePage.successMessage)
-        
-        
-        def getName(self):
-        return self.driver.find_element(*HomePage.name)
-
-
-    def getEmail3(self):
+       def getEmail3(self):
         return self.driver.find_element(*HomePage.email)
 
     def getCheckB323ox(self):
